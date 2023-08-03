@@ -1,20 +1,30 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView, ScrollView, StyleSheet, Text, View, useColorScheme } from 'react-native';
+import FlatCard from './components/FlatCard';
+import ElevatedCard from './components/ElevatedCard';
 
 export default function App() {
+ const isDarkmode=useColorScheme()==='dark';
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <SafeAreaView>
+      <ScrollView>
+ <FlatCard />
+ <ElevatedCard/>
+ </ScrollView>
+ </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: 'flex-start',
+    justifyContent:"center"
   },
+  whiteText:{
+    color:"#FFFFFF"
+  },
+  darkText:{
+    color:"#000000"
+  }
 });
