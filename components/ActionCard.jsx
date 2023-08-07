@@ -22,7 +22,7 @@ const ActionCard = () => {
 export default ActionCard
 const styles=StyleSheet.create({
     headingText:{},
-   card:{
+card:{
  
     },
 elevatedCard:{
