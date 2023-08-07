@@ -25,7 +25,7 @@ headingText:{
 },
 card:{
  
-    },
+ },
 elevatedCard:{
         
     },
