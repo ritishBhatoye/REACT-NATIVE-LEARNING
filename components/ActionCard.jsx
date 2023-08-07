@@ -24,7 +24,7 @@ const ActionCard = () => {
       <View style={styles.bodyContainer}>
         <Text>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-             Quas minima esse, beatae rerum mollitia excepturi ea 
+            Quas minima esse, beatae rerum mollitia excepturi ea 
             tenetur quasi libero deserunt eaque, soluta maxime
             nemo architecto dolor! Neque officia tempore natus?
         </Text>
