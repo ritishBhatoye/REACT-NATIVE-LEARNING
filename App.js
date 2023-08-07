@@ -2,6 +2,8 @@ import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, ScrollView, StyleSheet, Text, View, useColorScheme } from 'react-native';
 import FlatCard from './components/FlatCard';
 import ElevatedCard from './components/ElevatedCard';
+import FancyCard from './components/FancyCard';
+import ActionCard from './components/ActionCard';
 
 export default function App() {
  const isDarkmode=useColorScheme()==='dark';
@@ -9,7 +11,9 @@ export default function App() {
     <SafeAreaView>
       <ScrollView>
  <FlatCard />
- <ElevatedCard/>
+ <ElevatedCard />
+ <FancyCard />
+ <ActionCard />
  </ScrollView>
  </SafeAreaView>
   );
