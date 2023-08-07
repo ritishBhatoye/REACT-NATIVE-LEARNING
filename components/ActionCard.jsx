@@ -25,7 +25,7 @@ const styles=StyleSheet.create({
    card:{
  
     },
-    elevatedCard:{
+elevatedCard:{
         
     },
     headingContainer:{
