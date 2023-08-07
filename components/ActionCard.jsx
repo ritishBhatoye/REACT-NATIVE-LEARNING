@@ -28,7 +28,7 @@ card:{
  },
 elevatedCard:{
         
-    },
+},
 headingContainer:{
 
     },
