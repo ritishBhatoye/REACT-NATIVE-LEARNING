@@ -31,7 +31,7 @@ elevatedCard:{
 },
 headingContainer:{
 
-    },
+ },
 headerText:{
 
     },
