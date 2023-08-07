@@ -28,7 +28,7 @@ const styles=StyleSheet.create({
 elevatedCard:{
         
     },
-    headingContainer:{
+headingContainer:{
 
     },
     headerText:{
